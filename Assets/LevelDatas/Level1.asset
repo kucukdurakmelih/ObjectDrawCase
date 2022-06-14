@@ -1,0 +1,583 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b89449ae0743018bbeabae73ee6f39, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  levelName: Level1
+  gridObjects:
+  - pos: {x: -3.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: -0.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: -0.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: 0.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: 0.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: 1.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: -3.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: -3.25, y: 4.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: -4.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: -4.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: -3.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: -3.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: -2.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: -2.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: -1.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: -1.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: -0.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: -0.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: 0.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: 0.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: 1.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: 1.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: 2.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: 2.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: 3.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: 3.75}
+    isRequired: 0
+  - pos: {x: -2.75, y: 4.25}
+    isRequired: 0
+  - pos: {x: -2.75, y: 4.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: -0.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: -0.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: 0.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: 0.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: 1.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: -2.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: -2.25, y: 4.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: -4.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: -4.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: -3.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: -3.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: -2.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: -2.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: -1.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: -1.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: -0.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: -0.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: 0.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: 0.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: 1.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: 1.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: 2.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: 2.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: 3.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: 3.75}
+    isRequired: 0
+  - pos: {x: -1.75, y: 4.25}
+    isRequired: 0
+  - pos: {x: -1.75, y: 4.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: -0.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: -0.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: 0.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: 0.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: 1.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: -1.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: -1.25, y: 4.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: -4.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: -4.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: -3.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: -3.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: -2.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: -2.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: -1.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: -1.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: -0.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: -0.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: 0.25}
+    isRequired: 1
+  - pos: {x: -0.75, y: 0.75}
+    isRequired: 1
+  - pos: {x: -0.75, y: 1.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: 1.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: 2.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: 2.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: 3.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: 3.75}
+    isRequired: 0
+  - pos: {x: -0.75, y: 4.25}
+    isRequired: 0
+  - pos: {x: -0.75, y: 4.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: -0.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: -0.25}
+    isRequired: 1
+  - pos: {x: -0.25, y: 0.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: 0.75}
+    isRequired: 1
+  - pos: {x: -0.25, y: 1.25}
+    isRequired: 1
+  - pos: {x: -0.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: -0.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: -0.25, y: 4.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: -0.75}
+    isRequired: 1
+  - pos: {x: 0.25, y: -0.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: 0.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: 0.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: 1.25}
+    isRequired: 1
+  - pos: {x: 0.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: 0.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: 0.25, y: 4.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: -4.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: -4.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: -3.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: -3.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: -2.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: -2.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: -1.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: -1.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: -0.75}
+    isRequired: 1
+  - pos: {x: 0.75, y: -0.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: 0.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: 0.75}
+    isRequired: 1
+  - pos: {x: 0.75, y: 1.25}
+    isRequired: 1
+  - pos: {x: 0.75, y: 1.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: 2.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: 2.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: 3.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: 3.75}
+    isRequired: 0
+  - pos: {x: 0.75, y: 4.25}
+    isRequired: 0
+  - pos: {x: 0.75, y: 4.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: -0.75}
+    isRequired: 1
+  - pos: {x: 1.25, y: -0.25}
+    isRequired: 1
+  - pos: {x: 1.25, y: 0.25}
+    isRequired: 1
+  - pos: {x: 1.25, y: 0.75}
+    isRequired: 1
+  - pos: {x: 1.25, y: 1.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: 1.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: 1.25, y: 4.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: -4.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: -4.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: -3.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: -3.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: -2.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: -2.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: -1.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: -1.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: -0.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: -0.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: 0.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: 0.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: 1.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: 1.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: 2.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: 2.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: 3.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: 3.75}
+    isRequired: 0
+  - pos: {x: 1.75, y: 4.25}
+    isRequired: 0
+  - pos: {x: 1.75, y: 4.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: -0.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: -0.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: 0.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: 0.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: 1.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: 2.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: 2.25, y: 4.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: -4.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: -4.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: -3.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: -3.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: -2.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: -2.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: -1.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: -1.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: -0.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: -0.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: 0.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: 0.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: 1.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: 1.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: 2.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: 2.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: 3.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: 3.75}
+    isRequired: 0
+  - pos: {x: 2.75, y: 4.25}
+    isRequired: 0
+  - pos: {x: 2.75, y: 4.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: -4.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: -4.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: -3.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: -3.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: -2.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: -2.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: -1.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: -1.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: -0.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: -0.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: 0.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: 0.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: 1.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: 1.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: 2.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: 2.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: 3.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: 3.75}
+    isRequired: 0
+  - pos: {x: 3.25, y: 4.25}
+    isRequired: 0
+  - pos: {x: 3.25, y: 4.75}
+    isRequired: 0
+  verticalCount: 20
+  horizontalCount: 14
+  gridSize: 0.5
+  mainImage: {fileID: 0}
+  secondaryImage: {fileID: 0}
+  requiredGridObjects: []
+  levelPrefab: {fileID: 4745597536541671959, guid: 30fb17a7f6b7df54985e38030838fa64, type: 3}
