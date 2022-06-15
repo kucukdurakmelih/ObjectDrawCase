@@ -302,3 +302,4 @@ MonoBehaviour:
   mainImage: {fileID: 881622543177946402}
   firstRevealImage: {fileID: 4322656265370043769}
   secondRevealImage: {fileID: 57495928}
+  particlePrefab: {fileID: 1620116211597326, guid: 1805b6a59d8bf1e4fabb266117b0e2cb, type: 3}
