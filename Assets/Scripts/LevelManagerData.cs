@@ -30,4 +30,9 @@ public class LevelManagerData : ScriptableObject
         currentLevelIndex++;
         PlayerPrefs.SetInt("CurrentLevelIndex", currentLevelIndex);
     }
+
+    public int GetCurrentLevel()
+    {
+        return currentLevelIndex;
+    }
 }

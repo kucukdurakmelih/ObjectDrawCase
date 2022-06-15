@@ -24,6 +24,7 @@ public class LevelManager : MonoBehaviour
     private void LevelPassed()
     {
         levelSc.LevelPassed();
+        EventManager.EndLevel?.Invoke();
     }
 
     private void ShowHiddenObject()
@@ -41,7 +42,6 @@ public class LevelManager : MonoBehaviour
 
     private void LoadNextLevel()
     {
-        EventManager.EndLevel?.Invoke();
         levelManagerData.IncreaseLevelCounter();
         currentLevelData = levelManagerData.GetLevel();
         LoadLevel();
@@ -49,6 +49,7 @@ public class LevelManager : MonoBehaviour
 
     private void LoadLevel()
     {
+        EventManager.UpdateLevelText?.Invoke(levelManagerData.GetCurrentLevel());
         EventManager.StartLevel?.Invoke();
         var levelGameObject = Instantiate(currentLevelData.levelPrefab, Vector3.zero, quaternion.identity);
         levelSc = levelGameObject.GetComponent<LevelGameObject>();
@@ -61,10 +62,12 @@ public class LevelManager : MonoBehaviour
     {
         EventManager.LevelPassed += LevelPassed;
         EventManager.ShowHiddenObject = ShowHiddenObject;
+        EventManager.LoadNextLevel += LoadNextLevel;
     }
 
     private void OnDisable()
     {
         EventManager.LevelPassed -= LevelPassed;
+        EventManager.LoadNextLevel -= LoadNextLevel;
     }
 }

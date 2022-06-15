@@ -25,18 +25,18 @@ public class LevelGameObject : MonoBehaviour
         secondRevealImage.SetActive(true);
     }
 
-    private void EndLevel()
+    private void DestroyGameObject()
     {
         Destroy(gameObject);
     }
 
     private void OnEnable()
     {
-        EventManager.EndLevel += EndLevel;
+        EventManager.LoadNextLevel += DestroyGameObject;
     }
 
     private void OnDisable()
     {
-        EventManager.EndLevel -= EndLevel;
+        EventManager.LoadNextLevel -= DestroyGameObject;
     }
 }

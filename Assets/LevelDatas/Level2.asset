@@ -13,577 +13,22 @@ MonoBehaviour:
   m_Name: Level2
   m_EditorClassIdentifier: 
   levelName: Level2
-  gridObjects:
-  - pos: {x: -3.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: -0.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: -0.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: 0.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: 0.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: 1.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: -3.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: -3.25, y: 4.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: -4.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: -4.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: -3.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: -3.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: -2.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: -2.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: -1.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: -1.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: -0.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: -0.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: 0.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: 0.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: 1.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: 1.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: 2.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: 2.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: 3.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: 3.75}
-    isRequired: 0
-  - pos: {x: -2.75, y: 4.25}
-    isRequired: 0
-  - pos: {x: -2.75, y: 4.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: -0.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: -0.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: 0.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: 0.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: 1.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: -2.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: -2.25, y: 4.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: -4.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: -4.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: -3.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: -3.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: -2.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: -2.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: -1.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: -1.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: -0.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: -0.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: 0.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: 0.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: 1.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: 1.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: 2.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: 2.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: 3.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: 3.75}
-    isRequired: 0
-  - pos: {x: -1.75, y: 4.25}
-    isRequired: 0
-  - pos: {x: -1.75, y: 4.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: -0.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: -0.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: 0.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: 0.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: 1.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: -1.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: -1.25, y: 4.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: -4.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: -4.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: -3.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: -3.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: -2.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: -2.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: -1.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: -1.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: -0.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: -0.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: 0.25}
-    isRequired: 1
-  - pos: {x: -0.75, y: 0.75}
-    isRequired: 1
-  - pos: {x: -0.75, y: 1.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: 1.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: 2.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: 2.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: 3.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: 3.75}
-    isRequired: 0
-  - pos: {x: -0.75, y: 4.25}
-    isRequired: 0
-  - pos: {x: -0.75, y: 4.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: -0.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: -0.25}
-    isRequired: 1
-  - pos: {x: -0.25, y: 0.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: 0.75}
-    isRequired: 1
-  - pos: {x: -0.25, y: 1.25}
-    isRequired: 1
-  - pos: {x: -0.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: -0.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: -0.25, y: 4.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: -0.75}
-    isRequired: 1
-  - pos: {x: 0.25, y: -0.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: 0.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: 0.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: 1.25}
-    isRequired: 1
-  - pos: {x: 0.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: 0.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: 0.25, y: 4.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: -4.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: -4.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: -3.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: -3.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: -2.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: -2.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: -1.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: -1.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: -0.75}
-    isRequired: 1
-  - pos: {x: 0.75, y: -0.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: 0.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: 0.75}
-    isRequired: 1
-  - pos: {x: 0.75, y: 1.25}
-    isRequired: 1
-  - pos: {x: 0.75, y: 1.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: 2.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: 2.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: 3.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: 3.75}
-    isRequired: 0
-  - pos: {x: 0.75, y: 4.25}
-    isRequired: 0
-  - pos: {x: 0.75, y: 4.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: -0.75}
-    isRequired: 1
-  - pos: {x: 1.25, y: -0.25}
-    isRequired: 1
-  - pos: {x: 1.25, y: 0.25}
-    isRequired: 1
-  - pos: {x: 1.25, y: 0.75}
-    isRequired: 1
-  - pos: {x: 1.25, y: 1.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: 1.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: 1.25, y: 4.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: -4.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: -4.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: -3.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: -3.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: -2.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: -2.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: -1.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: -1.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: -0.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: -0.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: 0.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: 0.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: 1.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: 1.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: 2.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: 2.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: 3.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: 3.75}
-    isRequired: 0
-  - pos: {x: 1.75, y: 4.25}
-    isRequired: 0
-  - pos: {x: 1.75, y: 4.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: -0.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: -0.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: 0.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: 0.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: 1.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: 2.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: 2.25, y: 4.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: -4.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: -4.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: -3.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: -3.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: -2.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: -2.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: -1.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: -1.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: -0.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: -0.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: 0.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: 0.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: 1.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: 1.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: 2.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: 2.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: 3.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: 3.75}
-    isRequired: 0
-  - pos: {x: 2.75, y: 4.25}
-    isRequired: 0
-  - pos: {x: 2.75, y: 4.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: -4.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: -4.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: -3.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: -3.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: -2.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: -2.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: -1.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: -1.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: -0.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: -0.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: 0.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: 0.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: 1.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: 1.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: 2.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: 2.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: 3.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: 3.75}
-    isRequired: 0
-  - pos: {x: 3.25, y: 4.25}
-    isRequired: 0
-  - pos: {x: 3.25, y: 4.75}
-    isRequired: 0
-  verticalCount: 20
-  horizontalCount: 14
-  gridSize: 0.5
-  requiredGridObjects: []
   levelPrefab: {fileID: 9030399150130145753, guid: 3923dd705974f2c498052883c411cd16, type: 3}
   hiddenObject1:
     verticalCount: 20
     horizontalCount: 12
     gridSize: 0.5
     gridObjects:
+    - pos: {x: -2.75, y: -4.75}
+      isRequired: 0
+    - pos: {x: -2.75, y: -4.25}
+      isRequired: 0
+    - pos: {x: -2.75, y: -3.75}
+      isRequired: 0
+    - pos: {x: -2.75, y: -3.25}
+      isRequired: 0
+    - pos: {x: -2.75, y: -2.75}
+      isRequired: 0
     - pos: {x: -2.75, y: -2.25}
       isRequired: 0
     - pos: {x: -2.75, y: -1.75}
@@ -603,6 +48,26 @@ MonoBehaviour:
     - pos: {x: -2.75, y: 1.75}
       isRequired: 0
     - pos: {x: -2.75, y: 2.25}
+      isRequired: 0
+    - pos: {x: -2.75, y: 2.75}
+      isRequired: 0
+    - pos: {x: -2.75, y: 3.25}
+      isRequired: 0
+    - pos: {x: -2.75, y: 3.75}
+      isRequired: 0
+    - pos: {x: -2.75, y: 4.25}
+      isRequired: 0
+    - pos: {x: -2.75, y: 4.75}
+      isRequired: 0
+    - pos: {x: -2.25, y: -4.75}
+      isRequired: 0
+    - pos: {x: -2.25, y: -4.25}
+      isRequired: 0
+    - pos: {x: -2.25, y: -3.75}
+      isRequired: 0
+    - pos: {x: -2.25, y: -3.25}
+      isRequired: 0
+    - pos: {x: -2.25, y: -2.75}
       isRequired: 0
     - pos: {x: -2.25, y: -2.25}
       isRequired: 0
@@ -624,6 +89,26 @@ MonoBehaviour:
       isRequired: 0
     - pos: {x: -2.25, y: 2.25}
       isRequired: 0
+    - pos: {x: -2.25, y: 2.75}
+      isRequired: 0
+    - pos: {x: -2.25, y: 3.25}
+      isRequired: 0
+    - pos: {x: -2.25, y: 3.75}
+      isRequired: 0
+    - pos: {x: -2.25, y: 4.25}
+      isRequired: 0
+    - pos: {x: -2.25, y: 4.75}
+      isRequired: 0
+    - pos: {x: -1.75, y: -4.75}
+      isRequired: 0
+    - pos: {x: -1.75, y: -4.25}
+      isRequired: 0
+    - pos: {x: -1.75, y: -3.75}
+      isRequired: 0
+    - pos: {x: -1.75, y: -3.25}
+      isRequired: 0
+    - pos: {x: -1.75, y: -2.75}
+      isRequired: 0
     - pos: {x: -1.75, y: -2.25}
       isRequired: 0
     - pos: {x: -1.75, y: -1.75}
@@ -643,6 +128,26 @@ MonoBehaviour:
     - pos: {x: -1.75, y: 1.75}
       isRequired: 0
     - pos: {x: -1.75, y: 2.25}
+      isRequired: 0
+    - pos: {x: -1.75, y: 2.75}
+      isRequired: 0
+    - pos: {x: -1.75, y: 3.25}
+      isRequired: 0
+    - pos: {x: -1.75, y: 3.75}
+      isRequired: 0
+    - pos: {x: -1.75, y: 4.25}
+      isRequired: 0
+    - pos: {x: -1.75, y: 4.75}
+      isRequired: 0
+    - pos: {x: -1.25, y: -4.75}
+      isRequired: 0
+    - pos: {x: -1.25, y: -4.25}
+      isRequired: 0
+    - pos: {x: -1.25, y: -3.75}
+      isRequired: 0
+    - pos: {x: -1.25, y: -3.25}
+      isRequired: 0
+    - pos: {x: -1.25, y: -2.75}
       isRequired: 0
     - pos: {x: -1.25, y: -2.25}
       isRequired: 0
@@ -664,6 +169,26 @@ MonoBehaviour:
       isRequired: 0
     - pos: {x: -1.25, y: 2.25}
       isRequired: 0
+    - pos: {x: -1.25, y: 2.75}
+      isRequired: 0
+    - pos: {x: -1.25, y: 3.25}
+      isRequired: 0
+    - pos: {x: -1.25, y: 3.75}
+      isRequired: 0
+    - pos: {x: -1.25, y: 4.25}
+      isRequired: 0
+    - pos: {x: -1.25, y: 4.75}
+      isRequired: 0
+    - pos: {x: -0.75, y: -4.75}
+      isRequired: 0
+    - pos: {x: -0.75, y: -4.25}
+      isRequired: 0
+    - pos: {x: -0.75, y: -3.75}
+      isRequired: 0
+    - pos: {x: -0.75, y: -3.25}
+      isRequired: 0
+    - pos: {x: -0.75, y: -2.75}
+      isRequired: 0
     - pos: {x: -0.75, y: -2.25}
       isRequired: 0
     - pos: {x: -0.75, y: -1.75}
@@ -675,14 +200,34 @@ MonoBehaviour:
     - pos: {x: -0.75, y: -0.25}
       isRequired: 0
     - pos: {x: -0.75, y: 0.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.75, y: 0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.75, y: 1.25}
       isRequired: 0
     - pos: {x: -0.75, y: 1.75}
       isRequired: 0
     - pos: {x: -0.75, y: 2.25}
+      isRequired: 0
+    - pos: {x: -0.75, y: 2.75}
+      isRequired: 0
+    - pos: {x: -0.75, y: 3.25}
+      isRequired: 0
+    - pos: {x: -0.75, y: 3.75}
+      isRequired: 0
+    - pos: {x: -0.75, y: 4.25}
+      isRequired: 0
+    - pos: {x: -0.75, y: 4.75}
+      isRequired: 0
+    - pos: {x: -0.25, y: -4.75}
+      isRequired: 0
+    - pos: {x: -0.25, y: -4.25}
+      isRequired: 0
+    - pos: {x: -0.25, y: -3.75}
+      isRequired: 0
+    - pos: {x: -0.25, y: -3.25}
+      isRequired: 0
+    - pos: {x: -0.25, y: -2.75}
       isRequired: 0
     - pos: {x: -0.25, y: -2.25}
       isRequired: 0
@@ -693,16 +238,36 @@ MonoBehaviour:
     - pos: {x: -0.25, y: -0.75}
       isRequired: 0
     - pos: {x: -0.25, y: -0.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.25, y: 0.25}
       isRequired: 0
     - pos: {x: -0.25, y: 0.75}
-      isRequired: 1
-    - pos: {x: -0.25, y: 1.25}
-      isRequired: 1
-    - pos: {x: -0.25, y: 1.75}
       isRequired: 0
+    - pos: {x: -0.25, y: 1.25}
+      isRequired: 0
+    - pos: {x: -0.25, y: 1.75}
+      isRequired: 1
     - pos: {x: -0.25, y: 2.25}
+      isRequired: 1
+    - pos: {x: -0.25, y: 2.75}
+      isRequired: 1
+    - pos: {x: -0.25, y: 3.25}
+      isRequired: 0
+    - pos: {x: -0.25, y: 3.75}
+      isRequired: 0
+    - pos: {x: -0.25, y: 4.25}
+      isRequired: 0
+    - pos: {x: -0.25, y: 4.75}
+      isRequired: 0
+    - pos: {x: 0.25, y: -4.75}
+      isRequired: 0
+    - pos: {x: 0.25, y: -4.25}
+      isRequired: 0
+    - pos: {x: 0.25, y: -3.75}
+      isRequired: 0
+    - pos: {x: 0.25, y: -3.25}
+      isRequired: 0
+    - pos: {x: 0.25, y: -2.75}
       isRequired: 0
     - pos: {x: 0.25, y: -2.25}
       isRequired: 0
@@ -711,7 +276,7 @@ MonoBehaviour:
     - pos: {x: 0.25, y: -1.25}
       isRequired: 0
     - pos: {x: 0.25, y: -0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 0.25, y: -0.25}
       isRequired: 0
     - pos: {x: 0.25, y: 0.25}
@@ -719,10 +284,30 @@ MonoBehaviour:
     - pos: {x: 0.25, y: 0.75}
       isRequired: 0
     - pos: {x: 0.25, y: 1.25}
-      isRequired: 1
-    - pos: {x: 0.25, y: 1.75}
       isRequired: 0
+    - pos: {x: 0.25, y: 1.75}
+      isRequired: 1
     - pos: {x: 0.25, y: 2.25}
+      isRequired: 0
+    - pos: {x: 0.25, y: 2.75}
+      isRequired: 1
+    - pos: {x: 0.25, y: 3.25}
+      isRequired: 0
+    - pos: {x: 0.25, y: 3.75}
+      isRequired: 0
+    - pos: {x: 0.25, y: 4.25}
+      isRequired: 0
+    - pos: {x: 0.25, y: 4.75}
+      isRequired: 0
+    - pos: {x: 0.75, y: -4.75}
+      isRequired: 0
+    - pos: {x: 0.75, y: -4.25}
+      isRequired: 0
+    - pos: {x: 0.75, y: -3.75}
+      isRequired: 0
+    - pos: {x: 0.75, y: -3.25}
+      isRequired: 0
+    - pos: {x: 0.75, y: -2.75}
       isRequired: 0
     - pos: {x: 0.75, y: -2.25}
       isRequired: 0
@@ -731,18 +316,38 @@ MonoBehaviour:
     - pos: {x: 0.75, y: -1.25}
       isRequired: 0
     - pos: {x: 0.75, y: -0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 0.75, y: -0.25}
       isRequired: 0
     - pos: {x: 0.75, y: 0.25}
       isRequired: 0
     - pos: {x: 0.75, y: 0.75}
-      isRequired: 1
-    - pos: {x: 0.75, y: 1.25}
-      isRequired: 1
-    - pos: {x: 0.75, y: 1.75}
       isRequired: 0
+    - pos: {x: 0.75, y: 1.25}
+      isRequired: 0
+    - pos: {x: 0.75, y: 1.75}
+      isRequired: 1
     - pos: {x: 0.75, y: 2.25}
+      isRequired: 1
+    - pos: {x: 0.75, y: 2.75}
+      isRequired: 1
+    - pos: {x: 0.75, y: 3.25}
+      isRequired: 0
+    - pos: {x: 0.75, y: 3.75}
+      isRequired: 0
+    - pos: {x: 0.75, y: 4.25}
+      isRequired: 0
+    - pos: {x: 0.75, y: 4.75}
+      isRequired: 0
+    - pos: {x: 1.25, y: -4.75}
+      isRequired: 0
+    - pos: {x: 1.25, y: -4.25}
+      isRequired: 0
+    - pos: {x: 1.25, y: -3.75}
+      isRequired: 0
+    - pos: {x: 1.25, y: -3.25}
+      isRequired: 0
+    - pos: {x: 1.25, y: -2.75}
       isRequired: 0
     - pos: {x: 1.25, y: -2.25}
       isRequired: 0
@@ -751,18 +356,38 @@ MonoBehaviour:
     - pos: {x: 1.25, y: -1.25}
       isRequired: 0
     - pos: {x: 1.25, y: -0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 1.25, y: -0.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 1.25, y: 0.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 1.25, y: 0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 1.25, y: 1.25}
       isRequired: 0
     - pos: {x: 1.25, y: 1.75}
       isRequired: 0
     - pos: {x: 1.25, y: 2.25}
+      isRequired: 0
+    - pos: {x: 1.25, y: 2.75}
+      isRequired: 0
+    - pos: {x: 1.25, y: 3.25}
+      isRequired: 0
+    - pos: {x: 1.25, y: 3.75}
+      isRequired: 0
+    - pos: {x: 1.25, y: 4.25}
+      isRequired: 0
+    - pos: {x: 1.25, y: 4.75}
+      isRequired: 0
+    - pos: {x: 1.75, y: -4.75}
+      isRequired: 0
+    - pos: {x: 1.75, y: -4.25}
+      isRequired: 0
+    - pos: {x: 1.75, y: -3.75}
+      isRequired: 0
+    - pos: {x: 1.75, y: -3.25}
+      isRequired: 0
+    - pos: {x: 1.75, y: -2.75}
       isRequired: 0
     - pos: {x: 1.75, y: -2.25}
       isRequired: 0
@@ -784,6 +409,26 @@ MonoBehaviour:
       isRequired: 0
     - pos: {x: 1.75, y: 2.25}
       isRequired: 0
+    - pos: {x: 1.75, y: 2.75}
+      isRequired: 0
+    - pos: {x: 1.75, y: 3.25}
+      isRequired: 0
+    - pos: {x: 1.75, y: 3.75}
+      isRequired: 0
+    - pos: {x: 1.75, y: 4.25}
+      isRequired: 0
+    - pos: {x: 1.75, y: 4.75}
+      isRequired: 0
+    - pos: {x: 2.25, y: -4.75}
+      isRequired: 0
+    - pos: {x: 2.25, y: -4.25}
+      isRequired: 0
+    - pos: {x: 2.25, y: -3.75}
+      isRequired: 0
+    - pos: {x: 2.25, y: -3.25}
+      isRequired: 0
+    - pos: {x: 2.25, y: -2.75}
+      isRequired: 0
     - pos: {x: 2.25, y: -2.25}
       isRequired: 0
     - pos: {x: 2.25, y: -1.75}
@@ -803,6 +448,26 @@ MonoBehaviour:
     - pos: {x: 2.25, y: 1.75}
       isRequired: 0
     - pos: {x: 2.25, y: 2.25}
+      isRequired: 0
+    - pos: {x: 2.25, y: 2.75}
+      isRequired: 0
+    - pos: {x: 2.25, y: 3.25}
+      isRequired: 0
+    - pos: {x: 2.25, y: 3.75}
+      isRequired: 0
+    - pos: {x: 2.25, y: 4.25}
+      isRequired: 0
+    - pos: {x: 2.25, y: 4.75}
+      isRequired: 0
+    - pos: {x: 2.75, y: -4.75}
+      isRequired: 0
+    - pos: {x: 2.75, y: -4.25}
+      isRequired: 0
+    - pos: {x: 2.75, y: -3.75}
+      isRequired: 0
+    - pos: {x: 2.75, y: -3.25}
+      isRequired: 0
+    - pos: {x: 2.75, y: -2.75}
       isRequired: 0
     - pos: {x: 2.75, y: -2.25}
       isRequired: 0
@@ -824,35 +489,34 @@ MonoBehaviour:
       isRequired: 0
     - pos: {x: 2.75, y: 2.25}
       isRequired: 0
+    - pos: {x: 2.75, y: 2.75}
+      isRequired: 0
+    - pos: {x: 2.75, y: 3.25}
+      isRequired: 0
+    - pos: {x: 2.75, y: 3.75}
+      isRequired: 0
+    - pos: {x: 2.75, y: 4.25}
+      isRequired: 0
+    - pos: {x: 2.75, y: 4.75}
+      isRequired: 0
     requiredGridObjects:
-    - pos: {x: -0.75, y: 0.25}
+    - pos: {x: -0.25, y: 1.75}
       isRequired: 1
-    - pos: {x: -0.75, y: 0.75}
+    - pos: {x: -0.25, y: 2.25}
       isRequired: 1
-    - pos: {x: -0.25, y: -0.25}
+    - pos: {x: -0.25, y: 2.75}
       isRequired: 1
-    - pos: {x: -0.25, y: 0.75}
+    - pos: {x: 0.25, y: 1.75}
       isRequired: 1
-    - pos: {x: -0.25, y: 1.25}
+    - pos: {x: 0.25, y: 2.75}
       isRequired: 1
-    - pos: {x: 0.25, y: -0.75}
+    - pos: {x: 0.75, y: 1.75}
       isRequired: 1
-    - pos: {x: 0.25, y: 1.25}
+    - pos: {x: 0.75, y: 2.25}
       isRequired: 1
-    - pos: {x: 0.75, y: -0.75}
+    - pos: {x: 0.75, y: 2.75}
       isRequired: 1
-    - pos: {x: 0.75, y: 0.75}
-      isRequired: 1
-    - pos: {x: 0.75, y: 1.25}
-      isRequired: 1
-    - pos: {x: 1.25, y: -0.75}
-      isRequired: 1
-    - pos: {x: 1.25, y: -0.25}
-      isRequired: 1
-    - pos: {x: 1.25, y: 0.25}
-      isRequired: 1
-    - pos: {x: 1.25, y: 0.75}
-      isRequired: 1
+    requiredGridRatio: 0.7
   hiddenObject2:
     verticalCount: 20
     horizontalCount: 12
@@ -1345,3 +1009,4 @@ MonoBehaviour:
       isRequired: 1
     - pos: {x: 0.75, y: 1.25}
       isRequired: 1
+    requiredGridRatio: 0.5

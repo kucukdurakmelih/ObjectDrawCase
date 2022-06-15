@@ -14,4 +14,11 @@ public class EventManager
 
     public static Action StartLevel;
     public static Action EndLevel;
+
+    public static Action<int> UpdateLevelText;
+
+    public static Action LoadNextLevel;
+    
+    public static Action PlayerFoundSecondObject;
+
 }

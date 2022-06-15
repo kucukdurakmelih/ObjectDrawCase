@@ -40,12 +40,6 @@ public class GridManager : MonoBehaviour
 
     private void CheckDrawing()
     {
-        if (drawnGrids.Count < 5)
-        {
-            drawnGrids.Clear();
-            return;
-        }
-
         var requiredGrids = drawnGrids.Where(x => x.isRequired).ToList();
         //var unRequiredGrids = drawnGrids.Where(x => !x.isRequired).ToList();
 
@@ -66,7 +60,11 @@ public class GridManager : MonoBehaviour
             currentHiddenObject = levelData.hiddenObject2;
         }
         else
+        {
             EventManager.ShowHiddenObject?.Invoke();
+            EventManager.PlayerFoundSecondObject?.Invoke();
+        }
+            
     }
 
 
