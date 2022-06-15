@@ -7,11 +7,19 @@ using UnityEngine;
 public class GridManager : MonoBehaviour
 {
     private List<GridObject> drawnGrids = new List<GridObject>();
+    private HiddenObject currentHiddenObject;
+    private LevelData levelData;
+
+
+    private void StartLevel()
+    {
+        levelData = LevelManager.instance.currentLevelData;
+        currentHiddenObject = levelData.hiddenObject1;
+    }
 
     private void CheckGrid(Vector2 pos)
     {
-        var levelData = LevelManager.instance.currentLevelData;
-        var grids = levelData.gridObjects;
+        var grids = currentHiddenObject.gridObjects;
 
         GridObject closestGrid = null;
         var minDistance = Mathf.Infinity;
@@ -32,17 +40,31 @@ public class GridManager : MonoBehaviour
 
     private void CheckDrawing()
     {
-        if(drawnGrids.Count < 5) return;
+        if (drawnGrids.Count < 5)
+        {
+            drawnGrids.Clear();
+            return;
+        }
+
         var requiredGrids = drawnGrids.Where(x => x.isRequired).ToList();
         //var unRequiredGrids = drawnGrids.Where(x => !x.isRequired).ToList();
 
         var percentage = (float)requiredGrids.Count / drawnGrids.Count;
         Debug.Log(percentage);
-        
+
         drawnGrids.Clear();
+
         
-        if(percentage > 0.5)
-            EventManager.LevelPassed?.Invoke();
+        if (percentage > 0.5)
+        {
+            if (currentHiddenObject == levelData.hiddenObject1)
+            {
+                EventManager.LevelPassed?.Invoke();
+                currentHiddenObject = levelData.hiddenObject2;
+            }
+            else
+                EventManager.ShowHiddenObject?.Invoke();
+        }
     }
 
 
@@ -50,5 +72,11 @@ public class GridManager : MonoBehaviour
     {
         EventManager.CheckDrawing = CheckDrawing;
         EventManager.CheckGrid = CheckGrid;
+        EventManager.StartLevel += StartLevel;
+    }
+
+    private void OnDisable()
+    {
+        EventManager.StartLevel -= StartLevel;
     }
 }

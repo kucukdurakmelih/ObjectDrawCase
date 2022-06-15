@@ -9,4 +9,9 @@ public class EventManager
 
 
     public static Action LevelPassed;
+
+    public static Action ShowHiddenObject;
+
+    public static Action StartLevel;
+    public static Action EndLevel;
 }

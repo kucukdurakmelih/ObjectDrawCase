@@ -1,43 +1,76 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Mathematics;
 using UnityEditor;
 
-
+[ExecuteInEditMode]
 public class LevelCreator : MonoBehaviour
 {
-    [SerializeField] private LevelData currentLevelData;
+    public static LevelCreator instance;
+    [HideInInspector] public HiddenObject currentHiddenObject;
 
-    private List<Vector2> grids = new List<Vector2>();
     private Camera mainCamera;
+    private GameObject currentLevelGameObject;
+    private LevelData _levelData;
+    private HiddenObjectTypes currentHiddenObjectType;
+
+    public void ChangeCurrentHiddenObject(HiddenObject hiddenObject, LevelData levelData, HiddenObjectTypes hiddenObjectType)
+    {
+        currentHiddenObject = hiddenObject;
+        currentHiddenObjectType = hiddenObjectType;
+        if(currentLevelGameObject != null)
+            DestroyImmediate(currentLevelGameObject);
+
+        _levelData = levelData;
+        
+        currentLevelGameObject = Instantiate(levelData.levelPrefab, Vector3.zero, quaternion.identity);
+
+    }
+    private void Awake()
+    {
+        instance = this;
+        ResetLevelCreator();
+    }
+
+    private void ResetLevelCreator()
+    {
+        currentHiddenObject = null;
+        _levelData = null;
+        
+        if(currentLevelGameObject != null)
+            DestroyImmediate(currentLevelGameObject);
+        currentLevelGameObject = null;
+    }
     
-    
-    
-    private void UpdateGrid()
+
+
+    public void ResetGrid()
     {
         var gridList = new List<GridObject>();
 
         var verticalMidPos = 0f;
-        if (currentLevelData.verticalCount % 2 == 0)
-            verticalMidPos = (float)currentLevelData.verticalCount / 2 - 0.5f;
+        if (currentHiddenObject.verticalCount % 2 == 0)
+            verticalMidPos = (float)currentHiddenObject.verticalCount / 2 - 0.5f;
         else
-            verticalMidPos = (float)currentLevelData.verticalCount / 2 - 0.5f;
+            verticalMidPos = (float)currentHiddenObject.verticalCount / 2 - 0.5f;
 
         var horizontalMidPos = 0f;
-        if (currentLevelData.horizontalCount % 2 == 0)
-            horizontalMidPos = (float)currentLevelData.horizontalCount / 2 - 0.5f;
+        if (currentHiddenObject.horizontalCount % 2 == 0)
+            horizontalMidPos = (float)currentHiddenObject.horizontalCount / 2 - 0.5f;
         else
-            horizontalMidPos = (float)currentLevelData.horizontalCount / 2 - 0.5f;
+            horizontalMidPos = (float)currentHiddenObject.horizontalCount / 2 - 0.5f;
 
-        for (int i = 0; i < currentLevelData.horizontalCount; i++)
+        for (int i = 0; i < currentHiddenObject.horizontalCount; i++)
         {
-            for (int j = 0; j < currentLevelData.verticalCount; j++)
+            for (int j = 0; j < currentHiddenObject.verticalCount; j++)
             {
                 var verticalDifference = j - verticalMidPos;
-                var verticalPos = verticalDifference * currentLevelData.gridSize;
+                var verticalPos = verticalDifference * currentHiddenObject.gridSize;
 
                 var horizontalDifference = i - horizontalMidPos;
-                var horizontalPos = horizontalDifference * currentLevelData.gridSize;
+                var horizontalPos = horizontalDifference * currentHiddenObject.gridSize;
 
                 var gridPos = new Vector2(horizontalPos, verticalPos);
                 var newGrid = new GridObject
@@ -49,39 +82,35 @@ public class LevelCreator : MonoBehaviour
             }
         }
 
-        currentLevelData.gridObjects = gridList;
+        currentHiddenObject.gridObjects = gridList;
+        SaveGrid();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            UpdateGrid();
-        }
-
         if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log("mouse click");
             if(mainCamera == null) mainCamera = Camera.main;
             var mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
 
             var closestGrid = FindClosestGrid(mousePos);
 
             closestGrid.isRequired = !closestGrid.isRequired;
-        }
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
             SaveGrid();
         }
     }
 
     private void SaveGrid()
     {
-        currentLevelData.requiredGridObjects.Clear();
-        foreach (var gridObject in currentLevelData.gridObjects.Where(gridObject => gridObject.isRequired))
+        currentHiddenObject.requiredGridObjects.Clear();
+        foreach (var gridObject in currentHiddenObject.gridObjects.Where(gridObject => gridObject.isRequired))
         {
-            currentLevelData.requiredGridObjects.Add(gridObject);
+            currentHiddenObject.requiredGridObjects.Add(gridObject);
         }
+        
+        _levelData.SaveHiddenObject(currentHiddenObject, currentHiddenObjectType);
+        
     }
 
     private GridObject FindClosestGrid(Vector2 pos)
@@ -89,7 +118,7 @@ public class LevelCreator : MonoBehaviour
         GridObject gridObject = null;
         var minDistance = Mathf.Infinity;
 
-        foreach (var grid in currentLevelData.gridObjects)
+        foreach (var grid in currentHiddenObject.gridObjects)
         {
             var distance = Vector2.Distance(grid.pos, pos);
 
@@ -106,9 +135,9 @@ public class LevelCreator : MonoBehaviour
     private void SimulateGrid()
     {
         
-        var size = new Vector3(currentLevelData.gridSize - 0.01f, currentLevelData.gridSize - 0.01f,
-            currentLevelData.gridSize);
-        foreach (var grid in currentLevelData.gridObjects)
+        var size = new Vector3(currentHiddenObject.gridSize - 0.05f, currentHiddenObject.gridSize - 0.05f,
+            currentHiddenObject.gridSize);
+        foreach (var grid in currentHiddenObject.gridObjects)
         {
             if (grid.isRequired)
             {
@@ -126,6 +155,36 @@ public class LevelCreator : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        if (instance == null) instance = this;
+        
+        if (Event.current.type == EventType.MouseDrag)
+        {
+            
+        }
+        
         SimulateGrid();
+
+    }
+
+    private void OnGUI()
+    {
+        if (Event.current.button == 0)
+        {
+            if (Event.current.type == EventType.MouseDown)
+            {
+                var ray = HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
+                var origin = ray.origin;
+                origin.z = 0;
+                var pos = (Vector2)origin;
+                Debug.Log(pos);
+           
+     
+
+                var closestGrid = FindClosestGrid(pos);
+
+                closestGrid.isRequired = !closestGrid.isRequired;
+                SaveGrid();
+            }
+        }
     }
 }
