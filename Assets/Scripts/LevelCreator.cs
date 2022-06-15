@@ -134,7 +134,8 @@ public class LevelCreator : MonoBehaviour
 
     private void SimulateGrid()
     {
-        
+        if(currentHiddenObject == null) return;
+        if(currentHiddenObject.gridObjects == null) return;
         var size = new Vector3(currentHiddenObject.gridSize - 0.05f, currentHiddenObject.gridSize - 0.05f,
             currentHiddenObject.gridSize);
         foreach (var grid in currentHiddenObject.gridObjects)
@@ -155,17 +156,10 @@ public class LevelCreator : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        if (instance == null) instance = this;
-        
-        if (Event.current.type == EventType.MouseDrag)
-        {
-            
-        }
-        
         SimulateGrid();
-
     }
 
+    #if UNITY_EDITOR
     private void OnGUI()
     {
         if (Event.current.button == 0)
@@ -187,4 +181,6 @@ public class LevelCreator : MonoBehaviour
             }
         }
     }
+    
+    #endif
 }

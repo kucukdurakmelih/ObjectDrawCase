@@ -50,21 +50,23 @@ public class GridManager : MonoBehaviour
         //var unRequiredGrids = drawnGrids.Where(x => !x.isRequired).ToList();
 
         var percentage = (float)requiredGrids.Count / drawnGrids.Count;
-        Debug.Log(percentage);
+
+        var requiredGridRatio = (float) requiredGrids.Count / currentHiddenObject.requiredGridObjects.Count;
+
 
         drawnGrids.Clear();
 
-        
-        if (percentage > 0.5)
+
+        if (requiredGridRatio < currentHiddenObject.requiredGridRatio) return;
+        if (percentage <= 0.5f) return;
+
+        if (currentHiddenObject == levelData.hiddenObject1)
         {
-            if (currentHiddenObject == levelData.hiddenObject1)
-            {
-                EventManager.LevelPassed?.Invoke();
-                currentHiddenObject = levelData.hiddenObject2;
-            }
-            else
-                EventManager.ShowHiddenObject?.Invoke();
+            EventManager.LevelPassed?.Invoke();
+            currentHiddenObject = levelData.hiddenObject2;
         }
+        else
+            EventManager.ShowHiddenObject?.Invoke();
     }
 
 

@@ -36,7 +36,6 @@ public class HiddenObjectEditor : Editor
         base.OnInspectorGUI();
         var script = (LevelData)target;
 
-        GUILayoutOption layoutOption;
         GUILayout.BeginHorizontal();
         if (GUILayout.Button("Select Object 1", GUILayout.Height(40)))
         {

@@ -9,6 +9,7 @@ public class HiddenObject
     public float gridSize;
     public List<GridObject> gridObjects;
     public List<GridObject> requiredGridObjects;
+    public float requiredGridRatio;
 
     public HiddenObject(HiddenObject hiddenObject)
     {
