@@ -1009,4 +1009,4 @@ MonoBehaviour:
       isRequired: 1
     - pos: {x: 0.75, y: 1.25}
       isRequired: 1
-    requiredGridRatio: 0.5
+    requiredGridRatio: 0.3

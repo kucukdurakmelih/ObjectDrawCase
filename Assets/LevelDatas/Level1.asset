@@ -198,11 +198,11 @@ MonoBehaviour:
     - pos: {x: -0.75, y: -0.75}
       isRequired: 0
     - pos: {x: -0.75, y: -0.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.75, y: 0.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.75, y: 0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.75, y: 1.25}
       isRequired: 0
     - pos: {x: -0.75, y: 1.75}
@@ -240,11 +240,11 @@ MonoBehaviour:
     - pos: {x: -0.25, y: -0.25}
       isRequired: 1
     - pos: {x: -0.25, y: 0.25}
-      isRequired: 0
+      isRequired: 1
     - pos: {x: -0.25, y: 0.75}
       isRequired: 1
     - pos: {x: -0.25, y: 1.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.25, y: 1.75}
       isRequired: 0
     - pos: {x: -0.25, y: 2.25}
@@ -282,9 +282,9 @@ MonoBehaviour:
     - pos: {x: 0.25, y: 0.25}
       isRequired: 0
     - pos: {x: 0.25, y: 0.75}
-      isRequired: 0
-    - pos: {x: 0.25, y: 1.25}
       isRequired: 1
+    - pos: {x: 0.25, y: 1.25}
+      isRequired: 0
     - pos: {x: 0.25, y: 1.75}
       isRequired: 0
     - pos: {x: 0.25, y: 2.25}
@@ -320,11 +320,11 @@ MonoBehaviour:
     - pos: {x: 0.75, y: -0.25}
       isRequired: 0
     - pos: {x: 0.75, y: 0.25}
-      isRequired: 0
+      isRequired: 1
     - pos: {x: 0.75, y: 0.75}
       isRequired: 1
     - pos: {x: 0.75, y: 1.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 0.75, y: 1.75}
       isRequired: 0
     - pos: {x: 0.75, y: 2.25}
@@ -356,13 +356,13 @@ MonoBehaviour:
     - pos: {x: 1.25, y: -1.25}
       isRequired: 0
     - pos: {x: 1.25, y: -0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 1.25, y: -0.25}
       isRequired: 1
     - pos: {x: 1.25, y: 0.25}
       isRequired: 1
     - pos: {x: 1.25, y: 0.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: 1.25, y: 1.25}
       isRequired: 0
     - pos: {x: 1.25, y: 1.75}
@@ -500,39 +500,29 @@ MonoBehaviour:
     - pos: {x: 2.75, y: 4.75}
       isRequired: 0
     requiredGridObjects:
-    - pos: {x: -0.75, y: -0.25}
-      isRequired: 1
-    - pos: {x: -0.75, y: 0.25}
-      isRequired: 1
-    - pos: {x: -0.75, y: 0.75}
-      isRequired: 1
     - pos: {x: -0.25, y: -0.75}
       isRequired: 1
     - pos: {x: -0.25, y: -0.25}
       isRequired: 1
-    - pos: {x: -0.25, y: 0.75}
+    - pos: {x: -0.25, y: 0.25}
       isRequired: 1
-    - pos: {x: -0.25, y: 1.25}
+    - pos: {x: -0.25, y: 0.75}
       isRequired: 1
     - pos: {x: 0.25, y: -0.75}
       isRequired: 1
-    - pos: {x: 0.25, y: 1.25}
+    - pos: {x: 0.25, y: 0.75}
       isRequired: 1
     - pos: {x: 0.75, y: -0.75}
       isRequired: 1
+    - pos: {x: 0.75, y: 0.25}
+      isRequired: 1
     - pos: {x: 0.75, y: 0.75}
-      isRequired: 1
-    - pos: {x: 0.75, y: 1.25}
-      isRequired: 1
-    - pos: {x: 1.25, y: -0.75}
       isRequired: 1
     - pos: {x: 1.25, y: -0.25}
       isRequired: 1
     - pos: {x: 1.25, y: 0.25}
       isRequired: 1
-    - pos: {x: 1.25, y: 0.75}
-      isRequired: 1
-    requiredGridRatio: 0.7
+    requiredGridRatio: 0.6
   hiddenObject2:
     verticalCount: 20
     horizontalCount: 12
@@ -647,11 +637,11 @@ MonoBehaviour:
     - pos: {x: -1.75, y: 1.75}
       isRequired: 0
     - pos: {x: -1.75, y: 2.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -1.75, y: 2.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -1.75, y: 3.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -1.75, y: 3.75}
       isRequired: 0
     - pos: {x: -1.75, y: 4.25}
@@ -685,13 +675,13 @@ MonoBehaviour:
     - pos: {x: -1.25, y: 1.25}
       isRequired: 0
     - pos: {x: -1.25, y: 1.75}
-      isRequired: 0
+      isRequired: 1
     - pos: {x: -1.25, y: 2.25}
       isRequired: 1
     - pos: {x: -1.25, y: 2.75}
       isRequired: 0
     - pos: {x: -1.25, y: 3.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -1.25, y: 3.75}
       isRequired: 0
     - pos: {x: -1.25, y: 4.25}
@@ -725,13 +715,13 @@ MonoBehaviour:
     - pos: {x: -0.75, y: 1.25}
       isRequired: 0
     - pos: {x: -0.75, y: 1.75}
-      isRequired: 0
+      isRequired: 1
     - pos: {x: -0.75, y: 2.25}
       isRequired: 1
     - pos: {x: -0.75, y: 2.75}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.75, y: 3.25}
-      isRequired: 1
+      isRequired: 0
     - pos: {x: -0.75, y: 3.75}
       isRequired: 0
     - pos: {x: -0.75, y: 4.25}
@@ -1019,20 +1009,12 @@ MonoBehaviour:
     - pos: {x: 2.75, y: 4.75}
       isRequired: 0
     requiredGridObjects:
-    - pos: {x: -1.75, y: 2.25}
-      isRequired: 1
-    - pos: {x: -1.75, y: 2.75}
-      isRequired: 1
-    - pos: {x: -1.75, y: 3.25}
+    - pos: {x: -1.25, y: 1.75}
       isRequired: 1
     - pos: {x: -1.25, y: 2.25}
       isRequired: 1
-    - pos: {x: -1.25, y: 3.25}
+    - pos: {x: -0.75, y: 1.75}
       isRequired: 1
     - pos: {x: -0.75, y: 2.25}
       isRequired: 1
-    - pos: {x: -0.75, y: 2.75}
-      isRequired: 1
-    - pos: {x: -0.75, y: 3.25}
-      isRequired: 1
-    requiredGridRatio: 0.7
+    requiredGridRatio: 0.5
