@@ -635,9 +635,9 @@ MonoBehaviour:
     - pos: {x: -1.75, y: 1.25}
       isRequired: 0
     - pos: {x: -1.75, y: 1.75}
-      isRequired: 0
+      isRequired: 1
     - pos: {x: -1.75, y: 2.25}
-      isRequired: 0
+      isRequired: 1
     - pos: {x: -1.75, y: 2.75}
       isRequired: 0
     - pos: {x: -1.75, y: 3.25}
@@ -1009,6 +1009,10 @@ MonoBehaviour:
     - pos: {x: 2.75, y: 4.75}
       isRequired: 0
     requiredGridObjects:
+    - pos: {x: -1.75, y: 1.75}
+      isRequired: 1
+    - pos: {x: -1.75, y: 2.25}
+      isRequired: 1
     - pos: {x: -1.25, y: 1.75}
       isRequired: 1
     - pos: {x: -1.25, y: 2.25}

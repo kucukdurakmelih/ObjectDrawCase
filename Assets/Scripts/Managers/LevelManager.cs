@@ -15,11 +15,6 @@ public class LevelManager : MonoBehaviour
         levelManagerData.RestoreLevelIndex();
     }
 
-    private void Start()
-    {
-        currentLevelData = levelManagerData.GetLevel();
-    }
-
     private void LevelPassed()
     {
         levelSc.LevelPassed();
@@ -34,17 +29,18 @@ public class LevelManager : MonoBehaviour
     private void LoadNextLevel()
     {
         levelManagerData.IncreaseLevelCounter();
-        currentLevelData = levelManagerData.GetLevel();
         LoadLevel();
     }
 
     public void LoadLevel()
     {
         EventManager.UpdateLevelText?.Invoke(levelManagerData.GetCurrentLevel());
-        EventManager.StartLevel?.Invoke();
-        var levelGameObject = Instantiate(currentLevelData.levelPrefab, Vector3.zero, quaternion.identity);
-        levelSc = levelGameObject.GetComponent<LevelGameObject>();
+        currentLevelData = levelManagerData.GetLevel();
 
+        var levelGameObject = Instantiate(currentLevelData.levelPrefab, Vector3.zero, Quaternion.identity);
+        levelSc = levelGameObject.GetComponent<LevelGameObject>();
+        
+        EventManager.StartLevel?.Invoke();
         levelSc.Init();
     }
 

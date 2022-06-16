@@ -34,9 +34,16 @@ public class UIManager : MonoBehaviour
 
     private void EndLevel()
     {
-        nextLevelButton.SetActive(true);
         thereIsAnotherHiddenObjectText.SetActive(true);
         EventManager.ShowHint = null;
+        StartCoroutine(EnableNextLevelButton());
+    }
+
+    private IEnumerator EnableNextLevelButton()
+    {
+        yield return new WaitForSeconds(2);
+        nextLevelButton.SetActive(true);
+
     }
 
     private void PlayerFoundSecondObject()

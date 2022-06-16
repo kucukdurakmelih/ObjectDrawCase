@@ -8,6 +8,7 @@ using UnityEditor;
 [ExecuteInEditMode]
 public class LevelCreator : MonoBehaviour
 {
+#if UNITY_EDITOR
     public static LevelCreator instance;
     [HideInInspector] public HiddenObject currentHiddenObject;
 
@@ -139,7 +140,7 @@ public class LevelCreator : MonoBehaviour
         }
     }
 
-#if UNITY_EDITOR
+
     private void OnDrawGizmos()
     {
         SimulateGrid();

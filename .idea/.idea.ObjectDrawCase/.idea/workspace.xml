@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EditorScripts/LevelCreator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -67,7 +70,7 @@
       <workItem from="1655235416713" duration="13269000" />
       <workItem from="1655256078666" duration="6197000" />
       <workItem from="1655300753053" duration="14509000" />
-      <workItem from="1655346383687" duration="3758000" />
+      <workItem from="1655346383687" duration="6826000" />
     </task>
     <servers />
   </component>
